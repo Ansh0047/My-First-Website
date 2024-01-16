@@ -1,0 +1,90 @@
+
+div{
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    margin:0;
+}
+h1,h2,h3{
+    color:#66bfbf;
+}
+.top-cloud{
+    position: absolute;
+    left: 75%;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 15%;
+}
+.intro{
+    background: #ccffff;
+    padding: 100px;
+}
+.intro h1{
+    margin-bottom: 0;
+}
+.intro p{
+    margin-top: 0;
+}
+.text{
+    color:darkturquoise;
+    font-family: "Sacramento", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.about img{
+    margin-top: 100px;
+    width: 150px;
+    border-radius: 100%;
+}
+.about{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+.skills{
+    margin-top: 100px;
+}
+.skills h2{
+    margin-bottom: 30px;
+}
+.skills img{
+    width: 200px;
+    height: 100px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+h3{
+    color: grey;
+}
+
+.btn{
+    color: white;
+    background:#30e3cb;
+    border: 0px;
+    border-radius: 5px;
+    height:30px;
+    width:100px;
+    cursor: pointer;
+}
+
+.contact, .end{
+    margin-top: 50px;
+}
+
+.end{
+    background-color:#ccffff;
+    padding: 2%;
+}
+.end .item{
+    margin-left: 30px;
+}
